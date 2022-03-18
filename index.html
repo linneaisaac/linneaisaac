@@ -1,0 +1,143 @@
+<!-- To run, "python -m http.server" in folder and view at localhost:8000-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Linnea Isaac</title>
+
+  <meta name="description" content="Linnea Isaac's personal website">
+  <meta property="og:title" content="Linnea Isaac">
+  <meta property="og:description" content="Linnea Isaac's personal website">
+  <!-- <meta property="og:image" content="https://www.mywebsite.com/image.jpg"> -->
+  <!-- <meta property="og:image:alt" content="Image description"> -->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <!-- <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:url" content="https://www.mywebsite.com/page">
+  <link rel="canonical" href="https://www.mywebsite.com/page"> -->
+
+  <!-- <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+
+  <link rel="stylesheet" href="tufte.css" />
+  <style>
+    nav>ul {
+      padding: 0;
+    }
+
+    nav>ul>li {
+      list-style: none;
+      display: inline;
+    }
+
+    nav>ul>li::before {
+      content: "➺ ";
+    }
+
+    p.project {
+      display: grid;
+      grid-template-columns: 10rem 1fr;
+      gap: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Linnea Isaac</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <!-- <li><a href="/blog">Blog</a></li> -->
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="https://linneaisaac.itch.io/">Games</a></li>
+          <li><a href="https://www.linkedin.com/in/linneaisaac/">LinkedIn</a></li>
+          <!-- <li><a href="">Github</a></li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <p>
+        Hi, I'm Linnea! I am a nerd for:
+        <ul>
+          <li>people history</li>
+          <li>language history</li>
+          <li>natural history (critters &amp; cells)</li>
+        </ul>
+      </p>
+
+      <p>
+        and last but not least:
+        <ul>
+          <li>future history (tech and speculative fiction)</li>
+        </ul>
+      </p>
+
+      <p>
+        I like to write prose and poetry, hike and walk outside, play board games, make games,
+        and I work tirelessly to master the flat-footed squat. I also speak some Japanese.
+      </p>
+
+      <p>
+        I frequently collaborate with my wife, the fabulous
+        <a href="https://vgel.me">Theia Vogel</a>.
+        Here are some of the things we've made together:
+      </p>
+    </section>
+    <section>
+      <h2>Projects</h2>
+
+      <h3>
+        <a href="https://sortesalearum.com/">Sortes Alearum</a>
+      </h3>
+      <p class="project">
+        <a href="https://sortesalearum.com/">
+          <img src="assets/imgs/astragaloi.png" alt="">
+        </a>
+
+        A webpage simulating an ancient Greek dice-oracle: sort of like an ancient fortune-cookie.
+        Get the oracle's divine advice straight from inscriptions found at historical sites
+        in modern Turkey.
+      </p>
+
+
+      <h3>
+        <a href="https://vgel.itch.io/the-sacred-text">The Sacred Text</a>
+      </h3>
+      <p class="project">
+        <a href="https://vgel.itch.io/the-sacred-text">
+          <img src="assets/imgs/sacred_text.png" alt="">
+        </a>
+
+        A short myth-making game for GMTK Jam 2019 about the process of redaction
+        that formed the great religious texts and canons.
+        As a would-be god, choose your one true message, and see where it ends up.
+      </p>
+
+      <h3>
+        <a href="https://vgel.itch.io/mashed-up">Mashed Up!</a>
+      </h3>
+      <p class="project">
+        <a href="https://vgel.itch.io/mashed-up">
+          <img src="assets/imgs/mashed_up.png" alt="">
+        </a>
+
+        Short, QWOP-esque fighting game for GMTK Jam 2021.
+        Play it alone or with a friend—it has local co-op!
+      </p>
+    </section>
+    <footer>
+      Copyright 2022
+    </footer>
+  </main>
+</body>
+
+</html>
